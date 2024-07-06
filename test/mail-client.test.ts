@@ -91,7 +91,7 @@ describe("Mail Client Module", () => {
 
 				const templateFolderPath = path.join(
 					__dirname,
-					"../src/utils/assets/templates/emails/test"
+					"./assets/templates/emails/test"
 				);
 				const html = await mailClient
 					.getTemplateString(
